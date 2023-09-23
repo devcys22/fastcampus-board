@@ -28,9 +28,9 @@ class ArticleControllerTest {
         // When & Then
         mvc.perform(get("/articles"))
                 .andExpect(status().isOk())
-                .andExpect(content().contentType(MediaType.TEXT_HTML))
+                .andExpect(content().contentTypeCompatibleWith(MediaType.TEXT_HTML))
                 .andExpect(view().name("articles/index"))
-                .andExpect(model().attributeExists("article"));
+                .andExpect(model().attributeExists("articles"));
     }
 
     @DisplayName("[view][GET] 게시글 상세 페이지 - 정상 호출")
