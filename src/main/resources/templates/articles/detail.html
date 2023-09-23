@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>게시글 페이지</title>
+</head>
+
+<body>
+
+<header th:replace="~{header :: header}"></header>
+
+    <main>
+        <header>
+            <h1>첫번째 글</h1>
+        </header>
+
+        <aside>
+            <p><span>Uno</span></p>
+            <p><a href="mailto:djkehh@gmail.com">uno@mail.com</a></p>
+            <p><time datetime="2022-01-01T00:00:00">2022-01-01</time></p>
+            <p><a class="text-reset">#java</a></p>
+        </aside>
+    </main>
+
+<footer th:replace="footer :: footer"></footer>
+
+
+</body>
+</html>
