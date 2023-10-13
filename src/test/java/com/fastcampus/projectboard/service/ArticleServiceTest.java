@@ -293,15 +293,10 @@ class ArticleServiceTest {
 
     private ArticleDto createArticleDto(String title, String content, String hashtag) {
         return ArticleDto.of(
-                1L,
                 createUserAccountDto(),
                 title,
                 content,
-                hashtag,
-                LocalDateTime.now(),
-                "Uno",
-                LocalDateTime.now(),
-                "Uno");
+                hashtag);
     }
 
     private UserAccountDto createUserAccountDto() {
