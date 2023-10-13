@@ -1,4 +1,4 @@
-package com.fastcampus.projectboard.domain.type;
+package com.fastcampus.projectboard.domain.constant;
 
 import lombok.Getter;
 
@@ -11,7 +11,8 @@ public enum SearchType {
 
     @Getter private final String description;
 
-    SearchType(String description){
+    SearchType(String description) {
         this.description = description;
     }
+
 }
