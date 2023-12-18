@@ -37,6 +37,8 @@ Spring Boot
 비용 절감을 위해 클라우드 서버가 자동 슬립 모드로 설정되어 있습니다. 링크를 클릭하면 서비스가 깨어납니다. 따라서 첫번째 클릭 반응이 15초 이상으로 다소 늦을 수 있습니다.
 이후에는 비교적 원활하게 서비스를 구경하실 수 있습니다.
 
+* https://board-project-fast-9c234f47e8a3.herokuapp.com/
+
 ## Reference
 
 * 유즈케이스 다이어그램: #6 , https://github.com/devcys22/fastcampus-board/blob/main/document/project-board.svg
